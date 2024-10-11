@@ -3,7 +3,8 @@ import dotenv from "dotenv";
 import connectDB from "./config/db.js";
 import chalk from "chalk";
 
-
+dotenv.config();
+connectDB();
 
 const app = express();
 
